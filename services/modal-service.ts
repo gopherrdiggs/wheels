@@ -1,6 +1,6 @@
 class ModalController {
 
-  modalCtrl: any;
+  modalCtrl: HTMLIonModalControllerElement;
 
   constructor() {
     this.modalCtrl = document.querySelector('ion-modal-controller');

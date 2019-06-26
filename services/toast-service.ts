@@ -1,6 +1,6 @@
 class ToastController {
 
-  toastCtrl: any;
+  toastCtrl: HTMLIonToastControllerElement;
 
   constructor() {
     this.toastCtrl = document.querySelector('ion-toast-controller');
